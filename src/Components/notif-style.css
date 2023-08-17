@@ -1,0 +1,77 @@
+.notification {
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.notification img {
+    width: 40px;
+    height: 40px;
+}
+
+.notif-inner {
+    margin-left: 15px;
+}
+
+.notif-name,
+.notif-post, 
+.notif-group {
+    font-weight: 800;
+}
+
+.notif-name {
+    color: var(--vdark-blue-color);
+}
+
+.notif-group,
+.notif-group:hover,
+.notif-name:hover,
+.notif-post:hover {
+    color: var(--blue-color);
+    cursor: pointer;
+}
+
+.notif-time {
+    color: var(--greyblue-color);
+    margin-top: 4px;
+}
+
+.notif-message {
+    border: 1px solid var(--light-greyblue1-color);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 15px 15px;
+}
+
+.notif-message:hover {
+    background-color: var(--light-greyblue1-color);
+    cursor: pointer;
+}
+
+.notif-picture {
+    margin-left: auto;
+}
+
+.notif-picture:hover {
+    cursor: pointer;
+    background-color: var(--light-greyblue1-color);
+    border-radius: 7px;
+    padding: 2px;
+}
+
+/* Not read */
+.notread-bg {
+    background-color: var(--vlight-greyblue-color);
+}
+
+.notread-dot::after {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: var(--red-color);
+    border-radius: 50%;
+    margin-left: 5px;
+}
