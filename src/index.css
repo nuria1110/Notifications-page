@@ -85,7 +85,7 @@ body {
   color: hsl(228, 45%, 44%);  
 }
 
-@media(min-width: 1440px) {
+@media(min-width: 768px) {
 
   body {
     display: flex;
