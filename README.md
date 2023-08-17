@@ -13,12 +13,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- [Solution](#)
-- [Live Site](#)
+- [Solution](https://www.frontendmentor.io/solutions/notifications-page-using-reactjs-NdeEg-mMRC)
+- [Live Site](https://notifications-page-nuriatr.netlify.app/)
 
 ### Built with
 
